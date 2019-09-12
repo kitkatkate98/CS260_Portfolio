@@ -1,0 +1,65 @@
+h1 {
+    font-family: Arial;
+    color: purple;
+}
+h2 {
+    font-family: Helvetica;
+    color: teal;
+}
+h3 {
+    font-family: Georgia;
+    color: blue;
+}
+p {
+    font-family: Verdana;
+}
+ul {
+    font-family: "Geneva";
+    font-size: 15px;
+}
+body {
+    background-color: tan;
+}
+img {
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+nav li {
+  float: left;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: white;
+}
+nav .active {
+  background-color: #4CAF50;
+}
+nav li {
+  border-right: 1px solid #bbb;
+}
+nav li:last-child {
+  border-right: none;
+}
+nav li {
+    float: left;
+}
+section {
+ display: flex;
+}
